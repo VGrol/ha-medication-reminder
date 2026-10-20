@@ -9,7 +9,7 @@
     "step": {
       "user": {
         "title": "Patiënt toevoegen",
-        "description": "Maak een medicatieschema voor een persoon of huisdier. Kies het soort patiënt en wie de meldingen ontvangt. Daarna kun doseringen worden toevoegd.",
+        "description": "Maak een medicatieschema voor een persoon of huisdier. Kies het soort patiënt en wie de meldingen ontvangt. Daarna kun doseringen worden toegevoegd.",
         "data": {
           "patient": "Patiëntnaam",
           "patient_type": "Soort patiënt",
@@ -70,7 +70,7 @@
       },
       "add_dose": {
         "title": "Dosering toevoegen",
-        "description": "Kies een tijdstip samen met een medicijn. Stel vervolgens in hoe de dosisering wordt herhaald: op gekozen weekdagen (alle dagen = dagelijks), om de zoveel dagen óf volgens een cyclus van gebruiks- en rustdagen, vanaf een startdatum.",
+        "description": "Kies een tijdstip samen met een medicijn. Stel vervolgens in hoe de dosering wordt herhaald: op gekozen weekdagen (alle dagen = dagelijks), om de zoveel dagen óf volgens een cyclus van gebruiks- en rustdagen, vanaf een startdatum.",
         "data": {
           "time": "Tijd",
           "meds": "Medicijnen",
@@ -88,7 +88,7 @@
           "end_date": "Einddatum (optioneel; daarna geen herinneringen)"
         },
         "data_description": {
-          "meds": "Onderbreek meerdere medicijnen met &, + of een komma. Een schuine streep onderbreekt alleen als er spaties omheen staan. Daardoor blijft een naam zoals ‘Carbimazol 5mg (1/2)’ intact.",
+          "meds": "Scheid meerdere medicijnen met &, + of een komma. Een schuine streep scheidt alleen als deze omringt is met spaties, dus ‘Carbimazol 5mg (1/2)’ zal intact blijven.",
           "min_interval_hours": "Voor medicijnen met een 'Indien nodig' dosering, waarschuw als een dosering binnen dit aantal uren geregistreerd wordt. Bijvoorbeeld bijeen pijnstiller die niet vaker dan elke 4 uur dient te worden genomen.",
           "max_per_day": "Voor medicijnen met een 'Indien nodig' dosering, waarschuw wanneer de maximale dagelijkse dosering overschreden wordt.",
           "dose_units": "Pas de dosering hoeveelheid voor de huidige dosering aan. Laat op '0' staan om niets te veranderen, voor een halve pil; gebruik een punt als decimaalteken, bijvoorbeeld '0.5'.",
@@ -122,7 +122,7 @@
           "end_date": "Einddatum (optioneel; daarna geen herinneringen)"
         },
         "data_description": {
-          "meds": "Onderbreek meerdere medicijnen met &, + of een komma. Een schuine streep onderbreekt alleen als er spaties omheen staan. Daardoor blijft een naam zoals ‘Carbimazol 5mg (1/2)’ intact.",
+          "meds": "Scheid meerdere medicijnen met &, + of een komma. Een schuine streep scheidt alleen als deze omringt is met spaties, dus ‘Carbimazol 5mg (1/2)’ zal intact blijven.",
           "min_interval_hours": "Voor medicijnen met een 'Indien nodig' dosering, waarschuw als een dosering binnen dit aantal uren geregistreerd wordt. Bijvoorbeeld bijeen pijnstiller die niet vaker dan elke 4 uur dient te worden genomen.",
           "max_per_day": "Voor medicijnen met een 'Indien nodig' dosering, waarschuw wanneer de maximale dagelijkse dosering overschreden wordt.",
           "dose_units": "Pas de dosering hoeveelheid voor de huidige dosering aan. Laat op '0' staan om niets te veranderen, voor een halve pil; gebruik een punt als decimaalteken, bijvoorbeeld '0.5'.",
